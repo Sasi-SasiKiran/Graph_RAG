@@ -142,6 +142,15 @@ Open the local Streamlit address printed in the terminal, usually
 `http://localhost:8501`. Streamlit is configured to listen only on
 `127.0.0.1`. Stop the app with `Ctrl+C` in the terminal running Streamlit.
 
+### Run only the Streamlit app
+
+If Neo4j and Ollama are already running and you only want to launch the app,
+run this from the project directory (activate `.venv` first if you created it):
+
+```powershell
+python -m streamlit run app.py
+```
+
 The sidebar shows Neo4j connectivity, Ollama connectivity, model availability,
 and the active workspace. The page also displays source, chunk, entity, and
 relationship counts for the active generation.
