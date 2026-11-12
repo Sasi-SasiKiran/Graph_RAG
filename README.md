@@ -384,5 +384,6 @@ The configured Ollama address must be local and the model name must match
 
 Image-only or scanned PDFs are rejected because OCR is not included. Run OCR
 with a separate tool and upload the resulting searchable PDF.
-#   G r a p h _ R A G  
+#   G r a p h _ R A G 
+ 
  
